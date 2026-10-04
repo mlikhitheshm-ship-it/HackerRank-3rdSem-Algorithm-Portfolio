@@ -3,7 +3,7 @@
 ## Student Information
 
 **Name:** Likhithesh M  
-**USN / Student ID:** [ENTER YOUR USN]  
+**USN / Student ID:** R25EF124 
 **Semester:** 3rd Semester  
 **Program:** B.Tech Computer Science and Engineering  
 **University:** REVA University, Bengaluru  
@@ -12,7 +12,7 @@
 
 ## Profile Links
 
-**HackerRank Profile:** [ADD YOUR HACKERRANK PROFILE URL]
+**HackerRank Profile:** https://www.hackerrank.com/profile/mlikhitheshm
 
 **GitHub Repository:** [ADD YOUR GITHUB REPOSITORY URL]
 
