@@ -1,0 +1,51 @@
+# Binary Search
+
+## Problem Summary
+
+Given a sorted array and a target value V, find the zero-based index of V in the array.
+
+## Approach
+
+Binary search is used because the input array is already sorted.
+
+1. Set left to the first index.
+2. Set right to the last index.
+3. Find the middle index.
+4. If the middle element equals the target, return its index.
+5. If the middle element is smaller than the target, search the right half.
+6. Otherwise, search the left half.
+7. Continue until the target is found.
+
+## Algorithm
+
+The search space is divided into half during every iteration.
+
+## Time Complexity
+
+O(log N)
+
+## Auxiliary Space Complexity
+
+O(1)
+
+## Why This Approach Is Efficient
+
+Binary search eliminates half of the remaining search space after every comparison. Therefore, it is much faster than linear search for large sorted arrays.
+
+## Alternative Approach
+
+Linear search can check every element from left to right. Its time complexity is O(N), which is less efficient than binary search.
+
+## HackerRank
+
+Problem: Intro to Tutorial Challenges
+
+Technique: Binary Search
+
+Language: C++
+
+Status: Accepted
+
+## Key Learning
+
+This problem demonstrates divide-and-conquer searching and shows how a sorted array can be searched efficiently using O(log N) time.
