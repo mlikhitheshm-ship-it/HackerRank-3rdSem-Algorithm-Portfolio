@@ -14,7 +14,7 @@
 
 **HackerRank Profile:** https://www.hackerrank.com/profile/mlikhitheshm
 
-**GitHub Repository:** [ADD YOUR GITHUB REPOSITORY URL]
+**GitHub Repository:** https://github.com/mlikhitheshm-ship-it/HackerRank-3rdSem-Algorithm-Portfolio/tree/main
 
 ---
 
