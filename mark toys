@@ -1,0 +1,49 @@
+# Mark and Toys
+
+## Problem Summary
+
+Given the prices of different toys and a fixed amount of money, determine the maximum number of toys that can be purchased without exceeding the available budget.
+
+## Approach
+
+1. Sort the toy prices in ascending order.
+2. Start with the cheapest toy.
+3. Keep buying toys while the total cost does not exceed the budget.
+4. Stop when the next toy cannot be purchased.
+5. Return the number of toys purchased.
+
+## Algorithm
+
+The greedy strategy is used. We always purchase the cheapest available toy first.
+
+## Time Complexity
+
+O(N log N)
+
+The sorting operation takes O(N log N) time.
+
+## Auxiliary Space Complexity
+
+O(log N) to O(N), depending on the sorting implementation.
+
+## Why This Approach Is Efficient
+
+Buying the cheapest toys first maximizes the number of toys that can be purchased within the given budget.
+
+## Alternative Approach
+
+Without sorting, we could repeatedly find the cheapest remaining toy. However, repeatedly searching for the minimum can take O(N²) time, making it less efficient.
+
+## HackerRank
+
+Problem: Mark and Toys
+
+Technique: Greedy + Sorting
+
+Language: C++
+
+Status: Accepted
+
+## Key Learning
+
+This problem demonstrates greedy algorithms, sorting, budget constraints, and algorithm efficiency.
