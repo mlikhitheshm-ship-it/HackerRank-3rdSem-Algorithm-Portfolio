@@ -1,24 +1,51 @@
-#include <bits/stdc++.h>
-using namespace std;
+# Mini-Max Sum
 
-int main() {
-    vector<long long> arr(5);
+## Problem Summary
+Given five positive integers, find the minimum sum and maximum sum that can be obtained by summing exactly four of the five integers.
 
-    for (int i = 0; i < 5; i++) {
-        cin >> arr[i];
-    }
+## Example
+Input:
+1 2 3 4 5
 
-    long long total = 0;
-    long long minimum = LLONG_MAX;
-    long long maximum = LLONG_MIN;
+Output:
+10 14
 
-    for (long long x : arr) {
-        total += x;
-        minimum = min(minimum, x);
-        maximum = max(maximum, x);
-    }
+The minimum sum is 1 + 2 + 3 + 4 = 10.
+The maximum sum is 2 + 3 + 4 + 5 = 14.
 
-    cout << total - maximum << " " << total - minimum;
+## Approach
+1. Read the five integers.
+2. Calculate the total sum of all five integers.
+3. Find the minimum and maximum values.
+4. Minimum sum = Total sum - Maximum value.
+5. Maximum sum = Total sum - Minimum value.
+6. Print the minimum sum and maximum sum.
 
-    return 0;
-}
+## Algorithm
+Track the total, minimum, and maximum values while traversing the array once.
+
+## Time Complexity
+O(N)
+
+## Auxiliary Space Complexity
+O(1)
+
+## Why This Approach Is Efficient
+The solution does not require sorting the array. It finds the minimum and maximum values in a single traversal, making it efficient.
+
+## Alternative Approach
+Sort the array first. Then:
+- Minimum sum = sum of the first N-1 elements.
+- Maximum sum = sum of the last N-1 elements.
+
+The sorting approach takes O(N log N), so the single-pass approach is more efficient.
+
+## HackerRank
+Problem: Mini-Max Sum
+
+Status: Accepted
+
+Language: C++
+
+## Key Learning
+This problem demonstrates array traversal, minimum/maximum tracking, and Big-O complexity analysis.
